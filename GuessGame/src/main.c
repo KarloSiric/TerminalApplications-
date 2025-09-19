@@ -2,13 +2,12 @@
 * @Author: karlosiric
 * @Date:   2025-09-18 14:10:48
 * @Last Modified by:   karlosiric
-* @Last Modified time: 2025-09-18 15:42:00
+* @Last Modified time: 2025-09-19 12:18:47
 */
 
 
 
 #include "config.h"
-
 
 
 
@@ -20,8 +19,10 @@ int main( int argc, char const *argv[] )
 
 
 
+    
+    
+    
 
+    return (0);
 
-
-    return 0;
 }

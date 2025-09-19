@@ -8,6 +8,7 @@
 #include <math.h>
 #include <stdlib.h>
 #include <stdbool.h>
+#include <string.h>
 
 
 
@@ -15,12 +16,12 @@
 
 
 
+#define MAX_GUESSES                           5
+
+
+
 #define EASY_MIN                              1
 #define EASY_MAX                              10
-
-
-
-#define MAX_GUESSES                           5
 
 
 
@@ -46,6 +47,17 @@
 #define RANDOM_EASY                           ( rand() % ( EASY_MAX - EASY_MIN + 1 ) + EASY_MIN )
 #define RANDOM_MEDIUM                         ( rand() % ( MEDIUM_MAX - MEDIUM_MIN + 1 ) + MEDIUM_MIN )
 #define RANDOM_HARD                           ( rand() % ( HARD_MAX - HARD_MIN + 1) + HARD_MIN )
+
+
+
+
+
+
+ 
+
+
+
+
 
 
 
