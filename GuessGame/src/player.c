@@ -2,12 +2,11 @@
 * @Author: karlosiric
 * @Date:   2025-09-18 14:20:45
 * @Last Modified by:   karlosiric
-* @Last Modified time: 2025-09-19 12:39:42
+* @Last Modified time: 2025-09-19 22:02:58
 */
 
 
 #include "player.h"
-#include "config.h"
 #include <stdio.h>
 #include <stdlib.h>
 

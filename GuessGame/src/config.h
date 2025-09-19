@@ -22,17 +22,18 @@
 
 #define EASY_MIN                              1
 #define EASY_MAX                              10
+#define EASY_ATTEMPTS                         5
 
 
 
 #define MEDIUM_MIN                            1
 #define MEDIUM_MAX                            100
-
+#define MEDIUM_ATTEMPTS                       4
 
 
 #define HARD_MIN                              1
 #define HARD_MAX                              1000
-
+#define HARD_ATTEMPTS                         3
 
 
 #define BASE_SCORE                            1000
