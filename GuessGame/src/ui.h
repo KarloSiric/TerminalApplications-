@@ -13,7 +13,4 @@ void print_game_rules();
 
 
 
-
-
-
 #endif

@@ -24,8 +24,14 @@ typedef struct player
 
 void init_player( Player *player, char *name );
 
+
+
 void update_player_score( Player *player, int points_to_add );
 
+
+
 void display_player_score( Player *player );
+
+
 
 #endif

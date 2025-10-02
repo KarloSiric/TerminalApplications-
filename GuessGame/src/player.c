@@ -11,6 +11,7 @@
 #include <stdlib.h>
 
 
+
 void init_player( Player *player, char *name ) {
 
     player -> name = malloc( (strlen( name ) + 1 )* sizeof( char ) );
@@ -55,8 +56,3 @@ void display_player_score(Player *player) {
    printf("\nPlayer's current score is %d\n", player->current_score);
     
 }
-
-
-
-
-

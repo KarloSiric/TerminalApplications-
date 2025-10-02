@@ -80,5 +80,3 @@ e_GuessState check_guess( GameState *game, int attempt )
    }  
 
 }
-
-
