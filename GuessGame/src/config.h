@@ -36,6 +36,7 @@
 #define HARD_ATTEMPTS                         3
 
 
+
 #define BASE_SCORE                            1000
 #define GUESS_PENALTY                         500
 #define TIME_BONUS                            50
@@ -48,39 +49,6 @@
 #define RANDOM_EASY                           ( rand() % ( EASY_MAX - EASY_MIN + 1 ) + EASY_MIN )
 #define RANDOM_MEDIUM                         ( rand() % ( MEDIUM_MAX - MEDIUM_MIN + 1 ) + MEDIUM_MIN )
 #define RANDOM_HARD                           ( rand() % ( HARD_MAX - HARD_MIN + 1) + HARD_MIN )
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

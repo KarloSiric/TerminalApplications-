@@ -2,7 +2,7 @@
 * @Author: karlosiric
 * @Date:   2025-09-18 14:20:45
 * @Last Modified by:   karlosiric
-* @Last Modified time: 2025-09-19 21:51:05
+* @Last Modified time: 2025-09-20 21:05:18
 */
 
 
@@ -77,8 +77,8 @@ e_GuessState check_guess( GameState *game, int attempt )
         }
         printf( GUESS_MESSAGES[TOO_HIGH], attempt );
         return TOO_HIGH;
-   } 
-
+   }  
 
 }
+
 

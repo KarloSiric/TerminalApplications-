@@ -15,18 +15,33 @@ typedef enum GameGuess
     TOO_HIGH,
     TOO_MANY_GUESSES,
     WRONG_FORMAT,
+    NUM_ENUMS
 
 } e_GuessState;
 
 
 
-static const char *GUESS_MESSAGES[] =
+static const char *GUESS_MESSAGES[NUM_ENUMS] =
 {
-    "Wrong Guess! Your guess %d is too LOW!\n", 
-    "You are CORRECT!",
-    "Wrong Guess! Your guess %d is too high!\n",
-    "You are out of guesses! Game over!",
-    "You have entered an invalid character. Please enter a number and try again!",
+
+    [TOO_LOW] = "Wrong Guess! Your guess %d is too LOW!\n", 
+    [CORRECT] = "You are CORRECT!",
+    [TOO_HIGH] = "Wrong Guess! Your guess %d is too high!\n",
+    [TOO_MANY_GUESSES] = "You are out of guesses! Game over!",
+    [WRONG_FORMAT] = "You have entered an invalid character. Please enter a number and try again!",
+
+};
+
+
+static const int error_codes[NUM_ENUMS] =
+{
+
+    [TOO_LOW] = 3000,
+    [CORRECT] = 1000,   
+    [TOO_HIGH] = 3100,
+    [TOO_MANY_GUESSES] = 5000,
+    [WRONG_FORMAT] = 9999,
+
 };
 
 
@@ -71,13 +86,6 @@ GameState init_game( e_GameDifficulty difficulty );
 
 
 e_GuessState check_guess( GameState *game, int attempt );
-
-
-
-
-
-
-
 
 
 
